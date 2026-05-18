@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# IntelliJ / IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# Spring Boot
+api/build/
+api/.gradle/
+api/gradle/wrapper/gradle-wrapper.jar
+api/*.jar
+
+# React / Node
+pwa/node_modules/
+pwa/dist/
+pwa/.env.local
+pwa/.env.*.local
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
