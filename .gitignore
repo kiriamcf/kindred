@@ -11,11 +11,17 @@ out/
 # VS Code
 .vscode/
 
-# Spring Boot
-api/build/
+# Spring Boot / Gradle
 api/.gradle/
-api/gradle/wrapper/gradle-wrapper.jar
-api/*.jar
+api/build/
+api/bin/
+api/out/
+api/.kotlin/
+api/.idea/
+api/*.iws
+api/*.iml
+api/*.ipr
+!api/gradle/wrapper/gradle-wrapper.jar
 
 # React / Node
 pwa/node_modules/
